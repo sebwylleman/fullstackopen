@@ -6,10 +6,11 @@ sequenceDiagram
     Note right of browser: User submits a "hello" note on page
     activate server
    
-    Note right of server: Server adds the new note to the notes array that it received from the html form
     
     server-->>browser: 302 Found response redirects browser to  https://studies.cs.helsinki.fi/exampleapp/notes
     deactivate server
+
+    Note right of server: Server adds the new note to the notes array that it received from the html form
 
     browser->>server: HTTPS POST new_note
     activate server
