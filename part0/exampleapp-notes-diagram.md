@@ -11,8 +11,6 @@ sequenceDiagram
     server-->>browser: 302 Found response redirects browser to  https://studies.cs.helsinki.fi/exampleapp/notes
     deactivate server
 
-    Note right of browser: Causes the browser to make 5 new HTTP requests
-
     browser->>server: HTTPS POST new_note
     activate server
     server-->>browser: 200 OK returns html doc new_note
