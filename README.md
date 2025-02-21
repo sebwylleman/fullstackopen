@@ -1,3 +1,3 @@
 # fullstackopen
 
-My exercise submissions for https://fullstackopen.com/
+My exercise submissions for [fullstackopen](https://fullstackopen.com/en/)
